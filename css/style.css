@@ -19,11 +19,11 @@
 .transaction-area{
     min-height: 100vh;
     padding: 100px 0px;
-    /* display: none; */
+    display: none;
 }
 .status {
     padding: 20px;
-    margin: 0 20px;
+    margin: 10px 20px;
     color: #fff;
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@
 }
 .input-amount{
     padding: 30px;
-    margin: 0 10px;
+    margin: 10px;
     box-shadow: 5px 5px 10px gray;
     border-radius: 10px;
 }

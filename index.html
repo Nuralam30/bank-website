@@ -30,19 +30,19 @@
                 <div class="col-md-4">
                     <div class="deposite status">
                         <h5>Deposite</h5>
-                        <h2>$ 00</h2>
+                        <h2>$ <span id="current-deposite">00</span></h2>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="withdraw status">
                         <h5>Withdraw</h5>
-                        <h2>$ 00</h2>
+                        <h2>$ <span id="current-withdraw">00</span></h2>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="balance status">
                         <h5>Balance</h5>
-                        <h2>$ 1240</h2>
+                        <h2>$ <span id="current-balance">1240</span></h2>
                     </div>
                 </div>
             </div>
@@ -51,17 +51,17 @@
                 <div class="col-md-6">
                     <div class="input-amount">
                         <h5 class="title">Deposite</h5>
-                        <input type="text" class="form-control" placeholder="enter $ amount to deposite">
+                        <input type="text" id="deposite-amount" class="form-control" placeholder="enter $ amount to deposite">
                         <br>
-                        <button class="btn btn-success">Deposite</button>
+                        <button class="btn btn-success" id="deposite-btn">Deposite</button>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="input-amount">
                         <h5 class="title">Withdraw</h5>
-                        <input type="text" class="form-control" placeholder="enter $ amount to withdrw">
+                        <input type="text" id="withdraw-amount" class="form-control" placeholder="enter $ amount to withdrw">
                         <br>
-                        <button class="btn btn-success">Withdraw</button>
+                        <button class="btn btn-success" id="withdraw-btn">Withdraw</button>
                     </div>
                 </div>
             </div>
