@@ -4,5 +4,5 @@ document.getElementById('login-btn').addEventListener('click', ()=> {
     var transactionArea = document.querySelector('.transaction-area');
 
     loginArea.style.display = 'none';
-    transactionArea.style.display = 'flex';
+    transactionArea.style.display = 'block';
 })
